@@ -14,7 +14,6 @@ The HoneyPot project aimed to deploy and monitor a T-Pot HoneyPot to capture and
 - Strengthened pattern recognition and attack behaviour
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
 - Tpot - multi-honeypot platform using various honeypots to capture attacks.
 - ELK Stack - used for log collection, visualisation and analysis of honeypot activity.
