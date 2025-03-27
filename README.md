@@ -1,25 +1,26 @@
 # HoneyPot
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The HoneyPot project aimed to deploy and monitor a T-Pot HoneyPot to capture and analyse real-world cyber threats. The primary focus was to use Elastic Stack (Kibana) for log visualisation and VirusTotal for threat intelligence to identify malicious actors, attack patterns and high risk IPs. This hands on experience was designed to deepen my understanding of: threat detection, incident response and poractive cybersecurity defense through log analysis, network forensics and automated threat intelligence enrichment
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
+- Log analysis with ELK Stack - KQL language.
+- Improved threat detection and analysis.
+- Enhanced knowledge of network forensics.
 - Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
+- Strengthened pattern recognition and attack behaviour
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Tpot - multi-honeypot platform using various honeypots to capture attacks.
+- ELK Stack - used for log collection, visualisation and analysis of honeypot activity.
+- Suricata (IDS) - To detect malicious network activity.
+- VirusTotal - To check if an attacker's IP address is flagged as malicious by other vendors
+- Firewall monitoring - Protect honeypot, only host IP can connect to main frame, allowed all other IPs to try establish a connection - for log acquisition
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
