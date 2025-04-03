@@ -44,7 +44,8 @@ The HoneyPot project aimed to deploy and monitor a T-Pot HoneyPot to capture and
 - Query in kibana to filter for failed login attempts from a particular source IP address that had made a high frequency of inbound connections. Shows evidence of a brute force attack - high frequency of failed login attempts for a variety of usernames and passwords
 ![Screenshot 2025-03-28 201253](https://github.com/user-attachments/assets/d6e83b18-58a2-4c36-abe7-212692aba73e)
 - Running the source IP address in VirusTotal to gain more knowledge about the reputation of the IP address. Shows 15 other vendors flagged as malicious with possible malware and phishing attempts.
-![Screenshot 2025-03-28 201313](https://github.com/user-attachments/assets/b607237a-0d85-4bfb-8cd3-4bba43326dcb)
+- ![Screenshot 2025-03-28 201313](https://github.com/user-attachments/assets/fee94c09-ce39-4883-a9d8-e5d1ae0b3666)
+
 
 
 
