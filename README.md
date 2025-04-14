@@ -20,7 +20,7 @@ The HoneyPot project aimed to deploy and monitor a T-Pot HoneyPot to capture and
 - Suricata (IDS) - To detect malicious network activity.
 - VirusTotal - To check if an attacker's IP address is flagged as malicious by other vendors
 - Firewall monitoring - Protect honeypot, only host IP can connect to main frame, allowed inbound connections from all other IPs - for log acquisition
-- [Python script to parse logs](https://github.com/frankie-manzi/Python-Scripts/blob/main/Log-Parsing-Scripts/Honeypot-Analyser/Honeypot-Analyser-Final.py)
+- [Python script to parse logs generated from Suricata](https://github.com/frankie-manzi/Python-Scripts/blob/main/Log-Parsing-Scripts/Honeypot-Analyser/Honeypot-Analyser-Final.py)
 
 
 ## Steps
